@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- faça uma pagina que receba um numero e imprima a tabuada do numero digitado pelo usuario -->
+
+    <h1>tabuada</h1>
+
+    <div class="tabuada">
+        <label for="numero"></label>
+        <input id="numero" type="number" placeholder="digite o numero">
+        <input onclick="calculadora()" type="submit">
+        <div id="result">
+
+        </div>
+    </div>
+    <div class="img">
+        
+    </div>
+    <h1>contador de cliques </h1>
+    <div>
+
+        <input id="contador" type="submit" onclick="contador()" value="clique">
+    </div><br>  
+    <div>
+        este botao recebeu
+        <span id="cliques">0</span> cliques
+    </div>
+    <br>
+
+    <div>
+        <h1>sorteio número</h1>
+        <input type="submit" onclick="sorteio()" value="sorteie">
+        <h3 id="resultado"> 0</h3>
+    </div>
+
+    <div>
+        <h1>sorteio números v2</h1>
+        <input id="max" type="number">
+        <input id="min" type="number">
+        <input id="sorteado" type="submit">
+    </div>
+</body>
+
+
+</html>
