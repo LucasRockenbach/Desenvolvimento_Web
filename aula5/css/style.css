@@ -1,0 +1,16 @@
+body{
+    font-family: arial;
+    text-align: center;
+    margin: 1px;
+}
+button{
+    text-decoration: none;
+    border-radius: 10em;
+    background-color: rgb(236, 201, 207);
+    border-style: none;
+    color: white;
+    height: 2em;
+}
+button:hover{
+    background-color: rgb(255, 151, 151);
+}
