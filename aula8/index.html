@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/Script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>form e js</title>
+</head>
+<body>
+    <div>
+        <div class="container pt-5 ">
+            <h1>formularios e javaScript</h1>
+            <p>selecione o seu genero</p>
+            <p>genero: <br>
+                <input role="switch" class="form-check-input" type="radio" name="gender" value="masculino"> masculino
+                <input class="form-check-input" type="radio" name="gender" value="feminino"> feminino
+                <input class="form-check-input" type="radio" name="gender" value="outro"> outro
+                <button class="btn btn-outline-primary" onclick="getRadio()"> Enviar </button>
+            </p>
+            <div id="radioResult"></div>
+            <div class="container pt-5 ">
+                <h2 class="display-6">qual elemento da lista foi selecionado</h2>
+                <p>Selecione uma das opções de plano</p>
+                <select id="select1">
+                    <option value="free"> free</option>
+                    <option value="basic"> basic</option>
+                    <option value="premium"> premium</option>
+                </select>
+                <button class="btn btn-outline-primary" onclick="option()">enviar</button>
+                <h3 id="result"></h3>
+            </div>
+            <div class="container pt-5 ">
+                <h2 class="display-6">elementos check</h2>
+                <p class="display-6">quais suas prioridades?</p>
+                Trubalho <input type="checkbox" value="trabalho" name="trabalho" id="work">
+                Estudo <input type="checkbox" value="Estudo" name="trabalho" id="study">
+                Saude <input type="checkbox" value="Saude" name="trabalho" id="health">
+                <button class="btn btn-outline-primary"  onclick="check()">Enviar</button>
+                <h3><span id="checkResults"></span></h3> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
