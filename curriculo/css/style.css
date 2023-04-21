@@ -1,0 +1,42 @@
+
+
+#curriculo{
+    background-color: rgb(220, 239, 255);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#curriculo h1{
+    background-color: #7c117c;
+    color: white;
+    border-radius: 10px;
+    width: 450px;
+}
+#icons{
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 50px;
+}
+#icon{
+    font-size: 50px;
+    margin: 10px;
+}
+
+#icons a{
+    text-decoration: none;
+    color: white;
+}
+#icones{
+    margin: 5px;
+    background-color: #7c117c;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+#tec{
+    margin-top: 50px;
+}
+#sobre{
+    margin-top: 50px
+}
